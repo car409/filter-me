@@ -12,6 +12,11 @@ go_test(
 )
 
 go_test(
+    name = "backend_staging",
+    srcs = ["pass.go"],
+)
+
+go_test(
     name = "no_filter",
     srcs = ["pass.go"],
 )
